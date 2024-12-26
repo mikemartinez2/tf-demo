@@ -15,16 +15,12 @@ variable "key_name" {
 
 variable "server" {
   #type = map(string)
-  type = string
-  default = {
-    Name = "web-server"
-  }
+  type    = string
+  default = "web-server"
 }
 
 variable "demo" {
   #type = map(string)
-  type = string
-  default = {
-    Name = "tf-demo"
-  }
+  type    = string
+  default = "tf-demo"
 }
