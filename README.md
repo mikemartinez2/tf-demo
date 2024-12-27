@@ -1,5 +1,5 @@
 # tf-demo
-Demo for tf 
+This is a sales demo for terraform HCP
 
 ```bash
 tf-demo/
