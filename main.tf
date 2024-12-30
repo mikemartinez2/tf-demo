@@ -22,8 +22,9 @@ resource "aws_instance" "web_server" {
   ]
 
   tags = {
-    Name = var.server
-    Type = var.demo
+    Name        = var.server
+    Type        = var.demo
+    Environment = var.environment
   }
 
   user_data = <<EOF
