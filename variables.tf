@@ -27,6 +27,6 @@ variable "demo" {
 }
 variable "environment" {
   #type = map(string)
-  type    = string
-  default = "tf-demo-prod"
+  type        = string
+  description = "Environment Type"
 }
