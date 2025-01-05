@@ -22,7 +22,7 @@ resource "aws_instance" "web_server" {
   ]
 
   tags = {
-    Name        = var.server
+    Name        = "${var.server}-${var.environment}"
     Type        = var.demo
     Environment = var.environment
   }
